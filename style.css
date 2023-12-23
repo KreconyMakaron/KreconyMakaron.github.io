@@ -1,0 +1,50 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.summary {
+	border: 2px solid blue;
+	width: 14%;
+	margin-right: 1%;
+}
+
+.collections {
+	border: 2px solid blue;
+	width: 85%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000000;
+	margin-left: 20%;
+	margin-right: 20%;
+    padding: 0;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.beatmaps {
+	width: 98%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+table td, table th{
+	border: 1px solid black;
+}
+
+table td {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+  	border-spacing:0;  
+}

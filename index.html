@@ -1,129 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
-    <style type="text/css">
-    body{background:#a9a9ff;margin:0;padding:0;text-align:center;min-width:500px;}a{color:#264A7F;text-decoration:none;}h1{color:#B25C5C;font-size:20px;font-family:"Comic Sans MS",cursive;padding:5px;margin:0px;}
-    </style>
-    <title></title>
+    <title>Collections</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="loadCollections.js"></script>
 </head>
-<body>
-<script type="text/javascript">
-$.fn.slideFadeToggle = function(speed, easing, callback) {
-    return this.animate({
-        opacity: 'toggle',
-        height: 'toggle'
-    }, speed, easing, callback);
-};
-</script>
-</h1><h1>Lon Tech</h1><a href="https://osu.ppy.sh/b/3096978" target="_blank">
-seatrus - TH3 5UMMONERS <a href="https://osu.ppy.sh/b/3096978">[Collab Insane]5.23★</a> <br /><a href="https://osu.ppy.sh/b/3660035" target="_blank">
-Mitsukiyo - Bunny Bunny Carrot Carrot <a href="https://osu.ppy.sh/b/3660035">[Extra]5.4★</a> <br /><a href="https://osu.ppy.sh/b/4303481" target="_blank">
-Zekk - Let Me Hear <a href="https://osu.ppy.sh/b/4303481">[Standing Ovation]5.48★</a> <br /><a href="https://osu.ppy.sh/b/2643111" target="_blank">
-Camellia as "fluX Xroise" - Xronier <a href="https://osu.ppy.sh/b/2643111">[Cubby's MAXIMUM]5.5★</a> <br /><a href="https://osu.ppy.sh/b/4303314" target="_blank">
-LuzeriA - Nbt-Hwt <a href="https://osu.ppy.sh/b/4303314">[CURSE OF TEY]5.63★</a> <br /><a href="https://osu.ppy.sh/b/2669883" target="_blank">
-LBDJS - Tari Ubur Ubur (Hendro Engkeng Remix) (Cut Ver.) <a href="https://osu.ppy.sh/b/2669883">[Paket Streamix]5.7★</a> <br /><a href="https://osu.ppy.sh/b/1773874" target="_blank">
-Culprate & Skorpion - Jester <a href="https://osu.ppy.sh/b/1773874">[LCFC's Insane]4.74★</a> <br /><a href="https://osu.ppy.sh/b/3156597" target="_blank">
-M2U feat. NICODE - Breach <a href="https://osu.ppy.sh/b/3156597">[Neqoo's Extra]5.19★</a> <br /><a href="https://osu.ppy.sh/b/2849253" target="_blank">
-sabi - true DJ MAG top ranker's song Zenpen (katagiri Remix) <a href="https://osu.ppy.sh/b/2849253">[Senseabel's Extra]5.36★</a> <a href="https://osu.ppy.sh/b/2916949">[Scub x Nathan's Insane]4.98★</a> <br /><a href="https://osu.ppy.sh/b/1564457" target="_blank">
-Culprate & Dictate - Pencilina <a href="https://osu.ppy.sh/b/1564457">[idiosyncratic]5.47★</a> <br /><a href="https://osu.ppy.sh/b/3004854" target="_blank">
-Silentroom vs. Frums - Aegleseeker <a href="https://osu.ppy.sh/b/3004854">[AmaCandy's Expert]5.66★</a> <a href="https://osu.ppy.sh/b/3072362">[Serosuka Akira vs. Kyuno's Insane]4.86★</a> <br /><a href="https://osu.ppy.sh/b/2480417" target="_blank">
-factal - Flux <a href="https://osu.ppy.sh/b/2480417">[liquid]5.66★</a> <br /><a href="https://osu.ppy.sh/b/1040424" target="_blank">
-Camellia - kodama <a href="https://osu.ppy.sh/b/1040424">[Yamabiko]6.09★</a> <br /><a href="https://osu.ppy.sh/b/1538481" target="_blank">
-Duoscience - Indifferences <a href="https://osu.ppy.sh/b/1538481">[Ametrin's Insane]4.69★</a> <br /><a href="https://osu.ppy.sh/b/2537703" target="_blank">
-Dictate - Melodik (Short Ver.) <a href="https://osu.ppy.sh/b/2537703">[CollabLegit]5.02★</a> <br /><a href="https://osu.ppy.sh/b/2886437" target="_blank">
-Reku Mochizuki - Falseimager <a href="https://osu.ppy.sh/b/2886437">[Reality]5.2★</a> <br /><a href="https://osu.ppy.sh/b/1639734" target="_blank">
-HyperJuice - City Lights feat. EVO+, Jinmenusagi (Zekk Remix) <a href="https://osu.ppy.sh/b/1639734">[Reminiscence]5.21★</a> <br /><a href="https://osu.ppy.sh/b/1853553" target="_blank">
-Camellia - The King Of Lions <a href="https://osu.ppy.sh/b/1853553">[Insane]5.22★</a> <br /><a href="https://osu.ppy.sh/b/2769942" target="_blank">
-sakuraburst - Glacierfall (Park Remix) <a href="https://osu.ppy.sh/b/2769942">[celine's exp*rt]5.23★</a> <br /><a href="https://osu.ppy.sh/b/3800179" target="_blank">
-Darkney - Tonight <a href="https://osu.ppy.sh/b/3800179">[Extra]5.28★</a> <br /><a href="https://osu.ppy.sh/b/2784162" target="_blank">
-Laur - Metamorphose <a href="https://osu.ppy.sh/b/2784162">[EXALTED MUTAGENESIS]5.66★</a> <br /><a href="https://osu.ppy.sh/b/1358299" target="_blank">
-succducc - me & u <a href="https://osu.ppy.sh/b/1358299">[thiinggs]5.78★</a> <br /><a href="https://osu.ppy.sh/b/2143344" target="_blank">
-Mameyudoufu - Citadel <a href="https://osu.ppy.sh/b/2143344">[Autonomy]6.09★</a> <br /><a href="https://osu.ppy.sh/b/2771933" target="_blank">
-Pixel Terror - Contra (feat. Sara Skinner) (Cut Ver.) <a href="https://osu.ppy.sh/b/2771933">[thiev's Insane]4.56★</a> <br /><a href="https://osu.ppy.sh/b/3594160" target="_blank">
-Street - Hestia <a href="https://osu.ppy.sh/b/3594160">[Hyper]4.54★</a> <br /><a href="https://osu.ppy.sh/b/3813875" target="_blank">
-onumi - PERSONALITY <a href="https://osu.ppy.sh/b/3813875">[Insane]4.78★</a> <br /><a href="https://osu.ppy.sh/b/3756543" target="_blank">
-VeetaCrush - Mole <a href="https://osu.ppy.sh/b/3756543">[AncuL's Extra]5.35★</a> <a href="https://osu.ppy.sh/b/3215025">[Blossom]5.97★</a> <a href="https://osu.ppy.sh/b/3291796">[Kyutei's Insane]4.79★</a> <br /><a href="https://osu.ppy.sh/b/2532012" target="_blank">
-M2U - A Bella! (feat. Lucy) <a href="https://osu.ppy.sh/b/2532012">[Expert]5.22★</a> <br /><a href="https://osu.ppy.sh/b/3315708" target="_blank">
-MYUKKE. - AKKERA-COUNTRY-BOY <a href="https://osu.ppy.sh/b/3315708">[Mixagji's Expert]5.5★</a> <br /><a href="https://osu.ppy.sh/b/2610417" target="_blank">
-Masayoshi Minoshima - Bad Apple!! feat. nomico (Camellia's "Bad Psy!!" Remix) <a href="https://osu.ppy.sh/b/2610417">[Desolation]5.85★</a> <a href="https://osu.ppy.sh/b/2719259">[Insane]4.79★</a> <br /><a href="https://osu.ppy.sh/b/2725951" target="_blank">
-Rissyuu feat. Choko - Bamboo <a href="https://osu.ppy.sh/b/2725951">[KKip's Take]5.63★</a> <br /><a href="https://osu.ppy.sh/b/1899815" target="_blank">
-Camellia - Beyond the Geostationary Orbit Level <a href="https://osu.ppy.sh/b/1899815">[Another]5.01★</a> <br /><a href="https://osu.ppy.sh/b/2685242" target="_blank">
-Camellia - Body F10ating in the Zero Gravity Space <a href="https://osu.ppy.sh/b/2685242">[Otosaka's Insane]4.83★</a> <br /><a href="https://osu.ppy.sh/b/1351114" target="_blank">
-KASAI HARCORES - Cycle Hit <a href="https://osu.ppy.sh/b/1351114">[Home Run]5.8★</a> <br /><a href="https://osu.ppy.sh/b/3176961" target="_blank">
-RIOT - Dogma Resistance [Monstercat LP Mix] <a href="https://osu.ppy.sh/b/3176961">[Marathon]6.31★</a> <br /><a href="https://osu.ppy.sh/b/3259329" target="_blank">
-Mori Calliope - Excuse My Rudeness, But Could You Please RIP (ReeK's "Dude Whats A Genre" Remix) <a href="https://osu.ppy.sh/b/3259329">[Insane]4.83★</a> <br /><a href="https://osu.ppy.sh/b/917176" target="_blank">
-Camellia - Exit This Earth's Atomosphere <a href="https://osu.ppy.sh/b/917176">[GiRLC's Intangible]5.77★</a> <br /><a href="https://osu.ppy.sh/b/2152408" target="_blank">
-Culprate - Fester <a href="https://osu.ppy.sh/b/2152408">[Brut]5★</a> <br /><a href="https://osu.ppy.sh/b/1484886" target="_blank">
-Camellia - flying in the flow of deep-sea <a href="https://osu.ppy.sh/b/1484886">[trench]5.42★</a> <br /><a href="https://osu.ppy.sh/b/3056025" target="_blank">
-LeaF - Kyouki Ranbu <a href="https://osu.ppy.sh/b/3056025">[Cubby's Another]4.99★</a> <br /><a href="https://osu.ppy.sh/b/2676980" target="_blank">
-MUZZ - Nemesis <a href="https://osu.ppy.sh/b/2676980">[Battle & Beige's Vengeful Extra]5.67★</a> <br /><a href="https://osu.ppy.sh/b/1431981" target="_blank">
-Camellia - NUCLEAR-STAR <a href="https://osu.ppy.sh/b/1431981">[Delis' Insane]5.09★</a> <br /><a href="https://osu.ppy.sh/b/3277004" target="_blank">
-Kanye West - On Sight <a href="https://osu.ppy.sh/b/3277004">[sparxo's XXXTRA (feat. 1103)]5.53★</a> <br /><a href="https://osu.ppy.sh/b/897862" target="_blank">
-Camellia - Racemization <a href="https://osu.ppy.sh/b/897862">[deetz' Insane]5.2★</a> <br /><a href="https://osu.ppy.sh/b/1699159" target="_blank">
-Various Artists - Songs Compilation II <a href="https://osu.ppy.sh/b/1699159">[Marathon]5.69★</a> <br /><a href="https://osu.ppy.sh/b/2734059" target="_blank">
-False Noise - Space Angel <a href="https://osu.ppy.sh/b/2734059">[†Seraphim's Divine Choir†]5.44★</a> <br /><a href="https://osu.ppy.sh/b/1255922" target="_blank">
-Mamonis - The Sampling Paradise (Extended) <a href="https://osu.ppy.sh/b/1255922">[LET'S GET SCRATCHIN']5.28★</a> <br /><a href="https://osu.ppy.sh/b/487910" target="_blank">
-Camellia - Turning up! <a href="https://osu.ppy.sh/b/487910">[td4w]5.49★</a> <br /><a href="https://osu.ppy.sh/b/3910493" target="_blank">
-Reku Mochizuki - VEZZELiX <a href="https://osu.ppy.sh/b/3910493">[iREDi'S iNSANE]4.95★</a> <br /><a href="https://osu.ppy.sh/b/3064146" target="_blank">
-cYsmix - Abandoned Shrine Party <a href="https://osu.ppy.sh/b/3064146">[Aeril's Lunatic]4.64★</a> <br /><a href="https://osu.ppy.sh/b/3060241" target="_blank">
-lapix - And Drugs <a href="https://osu.ppy.sh/b/3060241">[anna's smol expert]4.97★</a> <br /><a href="https://osu.ppy.sh/b/3255549" target="_blank">
-Culprate - Beast (Vorso Remix) <a href="https://osu.ppy.sh/b/3255549">[JeZag's Insane]4.8★</a> <br /><a href="https://osu.ppy.sh/b/2628237" target="_blank">
-Camellia - Chirality ("Dissymmetric" Long ver.) <a href="https://osu.ppy.sh/b/2628237">[Insane]4.99★</a> <br /><a href="https://osu.ppy.sh/b/1591879" target="_blank">
-Moss (ft. Akacia) - Lullabye <a href="https://osu.ppy.sh/b/1591879">[Repose]5.27★</a> <br /><a href="https://osu.ppy.sh/b/2141331" target="_blank">
-Camellia feat. Nanahira - NANI THE FUCK!! <a href="https://osu.ppy.sh/b/2141331">[Insane]5.08★</a> <br /><a href="https://osu.ppy.sh/b/2662928" target="_blank">
-tomatoism - Someone Special <a href="https://osu.ppy.sh/b/2662928">[L e  C a n d y ' s  E x p e r t]5.26★</a> <br /><a href="https://osu.ppy.sh/b/1260108" target="_blank">
-Helblinde - The Solace of Oblivion <a href="https://osu.ppy.sh/b/1260108">[Aspire]5.97★</a> <br /><a href="https://osu.ppy.sh/b/2165188" target="_blank">
-onumi - ARROGANCE <a href="https://osu.ppy.sh/b/2165188">[Collab Insane]4.85★</a> <br /><a href="https://osu.ppy.sh/b/2714494" target="_blank">
-Mori Calliope - Excuse My Rudeness, But Could You Please RIP?<3 (t+pazolite Remix) <a href="https://osu.ppy.sh/b/2714494">[vikala's Insane]4.89★</a> <br /><a href="https://osu.ppy.sh/b/3790173" target="_blank">
-DROELOE x Sem - Facing the Sea <a href="https://osu.ppy.sh/b/3790173">[Zelq's Another]4.65★</a> <br /><a href="https://osu.ppy.sh/b/3665397" target="_blank">
-leroy - fuuuuck we were supposed to wear argyle <a href="https://osu.ppy.sh/b/3665397">[Extra]5.26★</a> <br /><a href="https://osu.ppy.sh/b/2194260" target="_blank">
-Massive New Krew - HADES (Camellia's "Recordatus Mortem" Remix) <a href="https://osu.ppy.sh/b/2194260">[Beneath the World]6.36★</a> <br /><a href="https://osu.ppy.sh/b/1804642" target="_blank">
-BlackY vs. Yooh - HAVOX <a href="https://osu.ppy.sh/b/1804642">[Scub's INFINITE]5.09★</a> <br /><a href="https://osu.ppy.sh/b/2416430" target="_blank">
-Feryquitous - I can avoid it.#owo <a href="https://osu.ppy.sh/b/2416430">[Expert]5.11★</a> <br /><a href="https://osu.ppy.sh/b/3319013" target="_blank">
-Matduke - Let It Go (Original Mix) <a href="https://osu.ppy.sh/b/3319013">[Insane]4.98★</a> <br /><a href="https://osu.ppy.sh/b/2592790" target="_blank">
-Silentroom - Shuu no Hazama <a href="https://osu.ppy.sh/b/2592790">[Another]4.73★</a> <br /><a href="https://osu.ppy.sh/b/3378934" target="_blank">
-PTB10 - Starfall <a href="https://osu.ppy.sh/b/3378934">[Aistrai's Insane]4.58★</a> <br /><a href="https://osu.ppy.sh/b/3217272" target="_blank">
-Kali Uchis - telepatia <a href="https://osu.ppy.sh/b/3217272">[my bed is empty]4.9★</a> <br />
+	<body>
+		<h1>Krecony's collections</h1>
+		<div class="container">
+			<div class="summary">
+				<h2>Collections:</h2>
+				<ul>
+					<li><a href="">Lon Tech</a></li>
+					<li><a href="">Lon Tech</a></li>
+					<li><a href="">Lon Tech</a></li>
+				</ul>
 
-</h1><h1>kinsg streams 180bpm</h1><a href="https://osu.ppy.sh/b/2409647" target="_blank">
-Camellia - Tornado <a href="https://osu.ppy.sh/b/2409647">[Insane]5.24★</a> <br /><a href="https://osu.ppy.sh/b/132013" target="_blank">
-Mutsuhiko Izumi - Chinese Snowy Dance <a href="https://osu.ppy.sh/b/132013">[Insane]4.99★</a> <br /><a href="https://osu.ppy.sh/b/82604" target="_blank">
-SHIKI - Pure Ruby <a href="https://osu.ppy.sh/b/82604">[Another]4.97★</a> <br /><a href="https://osu.ppy.sh/b/1065689" target="_blank">
-ETIA. - Kagami no Mary Sue <a href="https://osu.ppy.sh/b/1065689">[Eternal]5.79★</a> <br /><a href="https://osu.ppy.sh/b/2625237" target="_blank">
-Thaehan - Doki-Doki <a href="https://osu.ppy.sh/b/2625237">[Hyper]4.72★</a> <br /><a href="https://osu.ppy.sh/b/2157587" target="_blank">
-Loki - With Fire and Sword (2013) <a href="https://osu.ppy.sh/b/2157587">[neonat's Extra]5.57★</a> <br /><a href="https://osu.ppy.sh/b/657054" target="_blank">
-Yuyoyuppe - AiAe <a href="https://osu.ppy.sh/b/657054">[Expert]5.63★</a> <a href="https://osu.ppy.sh/b/589965">[Another]5.09★</a> <br /><a href="https://osu.ppy.sh/b/2972129" target="_blank">
-DJ Sharpnel - Gate Openerz <a href="https://osu.ppy.sh/b/2972129">[SRPC-0180]6.13★</a> <br /><a href="https://osu.ppy.sh/b/1666338" target="_blank">
-DragonForce - Ashes of the Dawn <a href="https://osu.ppy.sh/b/1666338">[Insane]5.13★</a> <br /><a href="https://osu.ppy.sh/b/2822369" target="_blank">
-NIWASHI - Playing with Ruby <a href="https://osu.ppy.sh/b/2822369">[Insane]5.43★</a> <br /><a href="https://osu.ppy.sh/b/2333514" target="_blank">
-Saint Snow - DROPOUT!? <a href="https://osu.ppy.sh/b/2333514">[Reform's Insane]4.94★</a> <br /><a href="https://osu.ppy.sh/b/2477067" target="_blank">
-ke-ji feat. Nanahira - Ange du Blanc Pur <a href="https://osu.ppy.sh/b/2477067">[Insane]4.92★</a> <br /><a href="https://osu.ppy.sh/b/1586350" target="_blank">
-aran - VOLT (USAO Remix) <a href="https://osu.ppy.sh/b/1586350">[NiNo's Insane]4.89★</a> <br /><a href="https://osu.ppy.sh/b/887095" target="_blank">
-xi - Akasha <a href="https://osu.ppy.sh/b/887095">[Insane]5.36★</a> <br /><a href="https://osu.ppy.sh/b/2316176" target="_blank">
-GYZE - HONESTY <a href="https://osu.ppy.sh/b/2316176">[HEART OF SORROW]5.52★</a> <br /><a href="https://osu.ppy.sh/b/1819782" target="_blank">
-Ryu* - Sakura Mirage (STARLiGHT Mix) <a href="https://osu.ppy.sh/b/1819782">[Zizou's Insane]5.11★</a> <br /><a href="https://osu.ppy.sh/b/2156842" target="_blank">
-VINXIS - Sidetracked Day <a href="https://osu.ppy.sh/b/2156842">[Daydream]5.47★</a><br />
-
-<h1>kinsg streams other bpm</h1><a href="https://osu.ppy.sh/b/2358639" target="_blank">
-lapix - Nexta <a href="https://osu.ppy.sh/b/2358639">[coco's EXHAUST]4.73★</a> <br /><a href="https://osu.ppy.sh/b/1815526" target="_blank">
-Festa - Lemuria <a href="https://osu.ppy.sh/b/1815526">[Insane]4.87★</a> <br /><a href="https://osu.ppy.sh/b/2193921" target="_blank">
-Tezuka x Qayo - NINI <a href="https://osu.ppy.sh/b/2193921">[Altai's Insane]4.99★</a> <br /><a href="https://osu.ppy.sh/b/3299371" target="_blank">
--45 - System Sun <a href="https://osu.ppy.sh/b/3299371">[Insane]4.82★</a> <br /><a href="https://osu.ppy.sh/b/282166" target="_blank">
-LeaF - MEPHISTO <a href="https://osu.ppy.sh/b/282166">[Another]5.2★</a> <br /><a href="https://osu.ppy.sh/b/1555717" target="_blank">
-EPICA - Wings of Freedom <a href="https://osu.ppy.sh/b/1555717">[Victoria]5.23★</a> <br /><a href="https://osu.ppy.sh/b/561628" target="_blank">
-Venetian Snares - My So-Called Life <a href="https://osu.ppy.sh/b/561628">[Dream]5.34★</a> <br /><a href="https://osu.ppy.sh/b/2899195" target="_blank">
-fiend - FEVER DREAM (feat. yzzyx) <a href="https://osu.ppy.sh/b/2899195">[INFINITY]5.57★</a> <br /><a href="https://osu.ppy.sh/b/147327" target="_blank">
-A*Teens - Gimme! Gimme! Gimme! (Nightcore Mix) <a href="https://osu.ppy.sh/b/147327">[CDFGimme!]5.6★</a> <br /><a href="https://osu.ppy.sh/b/668662" target="_blank">
-Yooh - Ice Angel <a href="https://osu.ppy.sh/b/668662">[Saint]5.99★</a> <br /><a href="https://osu.ppy.sh/b/3241887" target="_blank">
-REDALiCE - Great Nano Desu* <a href="https://osu.ppy.sh/b/3241887">[Insane]-4.67★</a> <br /><a href="https://osu.ppy.sh/b/3805691" target="_blank">
-Sakaue Nachi - Crazy Hot <a href="https://osu.ppy.sh/b/3805691">[Satellite's Lunatic]5.53★</a> <br /><a href="https://osu.ppy.sh/b/1158045" target="_blank">
-Akatsuki Records - Bloody Devotion <a href="https://osu.ppy.sh/b/1158045">[l1mi]5.39★</a> <br /><a href="https://osu.ppy.sh/b/3833777" target="_blank">
-AAAA + Umeboshi Chazuke - Cait Sith <a href="https://osu.ppy.sh/b/3833777">[wyrio's Expert]5.99★</a> <br /><a href="https://osu.ppy.sh/b/1329273" target="_blank">
-KAMELOT - Liar Liar (Wasteland Monarchy) <a href="https://osu.ppy.sh/b/1329273">[Dark]6.34★</a> <br /><a href="https://osu.ppy.sh/b/1001682" target="_blank">
-DragonForce - Through the Fire and Flames <a href="https://osu.ppy.sh/b/1001682">[Myth]6.38★</a> <br /><a href="https://osu.ppy.sh/b/2324562" target="_blank">
-Imperial Circus Dead Decadence - Uta <a href="https://osu.ppy.sh/b/2324562">[Poetry]5.26★</a> <br /><a href="https://osu.ppy.sh/b/1217241" target="_blank">
-Pianom - Insaengui Huejeonmongma(ppongjjak ver.) <a href="https://osu.ppy.sh/b/1217241">[Happil]5.04★</a> <br /><a href="https://osu.ppy.sh/b/3956011" target="_blank">
-Metrik - We Got It (feat. Rothwell) <a href="https://osu.ppy.sh/b/3956011">[Watch The World]-5.6★</a> <br /><a href="https://osu.ppy.sh/b/3018109" target="_blank">
-Mage - The Words I Never Said <a href="https://osu.ppy.sh/b/3018109">[Regret]-5.83★</a> <br />
-</body></html>
+			</div>
+			<div class="collections">
+				<h2>Collection 1</h2>
+				<table class="beatmaps">
+					<tr>
+						<th>Title</th>
+						<th>Artist</th>
+						<th>Difficulty</th>
+						<th>SR</th>
+						<th>BPM</th>
+						<th>Length</th>
+						<th>AR</th>
+						<th>HP</th>
+						<th>CS</th>
+						<th>OD</th>
+					</tr>
+					<tr>
+						<td>Turning Up!</td>
+						<td>Camellia</td>
+						<td>td4w</td>
+						<td>5.81</td>
+						<td>174</td>
+						<td>4:03</td>
+						<td>9.3</td>
+						<td>8.0</td>
+						<td>4.0</td>
+						<td>8.0</td>
+					</tr>
+				</table>
+				<hr/>
+				<h2>Collection 2</h2>
+				<hr/>
+				<h2>Collection 3</h2>
+			</div>
+		</div>
+	</body>
+</html>
